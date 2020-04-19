@@ -24,7 +24,10 @@ locale-gen
 ## 安装 Python
 
 ```shell
-pacman -S python3
+# 默认安装 Python 3
+pacman -S python
+# 单独安装 pip
+pacman -S python-pip
 ```
 
 ## 安装 openssh
