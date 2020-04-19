@@ -1,5 +1,4 @@
-# ArchLinux-on-iPadOS
-UTM is needed
+# ArchLinux-on-iPadOS（UTM App）
 
 ## Install Guide 安装指南
 
@@ -185,3 +184,11 @@ uname -a
 查看系统时间
 uptime
 ```
+
+## 参考资料
+
+视频：[黑影儿TV - 【硬核】把 iPad 变成万能虚拟机](https://b23.tv/BV1vK4y1r724)
+
+网站：www.archlinux.org
+
+
