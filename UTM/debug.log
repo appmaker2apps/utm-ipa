@@ -1,0 +1,408 @@
+qemu: info: Spice: reds.c:4214:spice_server_set_seamless_migration: seamless migration enabled=0
+qemu: info: Spice: reds.c:3359:do_spice_init: starting 0.14.1
+qemu: info: Spice: char-device.c:690:red_char_device_reset_dev_instance: sin 0x0, char device 0x1181e4110
+qemu: info: Spice: reds.c:2561:reds_init_socket: bound to 127.0.0.1:5930
+qemu: info: Spice: main:0 (0x1181f00f0): thread_id 0x16e43f000
+qemu: info: Spice: inputs:0 (0x1181ec1a0): thread_id 0x16e43f000
+qemu: info: Spice: reds.c:3297:spice_server_add_interface: SPICE_INTERFACE_MIGRATION
+qemu: info: Spice: reds.c:3214:spice_server_add_interface: SPICE_INTERFACE_KEYBOARD
+qemu: info: Spice: reds.c:3224:spice_server_add_interface: SPICE_INTERFACE_MOUSE
+qemu: info: Spice: reds.c:3236:spice_server_add_interface: SPICE_INTERFACE_QXL
+qemu: info: Spice: cursor-channel.c:238:cursor_channel_new: create cursor channel
+qemu: info: Spice: cursor:0 (0x10ffd4d40): thread_id 0x16e43f000
+qemu: info: Spice: display-channel.c:2235:display_channel_new: create display channel
+qemu: info: Spice: display:0 (0x1181f01b0): thread_id 0x16e43f000
+qemu: info: Spice: display-channel.c:236:display_channel_set_stream_video: sv off
+qemu: info: Spice: red-worker.c:1360:red_worker_main: begin
+qemu: info: Spice: reds.c:3280:spice_server_add_interface: SPICE_INTERFACE_RECORD
+qemu: info: Spice: record:0 (0x1181f0250): thread_id 0x16e43f000
+qemu: info: Spice: reds.c:3271:spice_server_add_interface: SPICE_INTERFACE_PLAYBACK
+qemu: info: Spice: playback:0 (0x1181f0300): thread_id 0x16e43f000
+qemu: info: Spice: display-channel.c:2090:display_channel_destroy_surfaces: trace
+qemu: info: Spice: red-worker.c:490:dev_create_primary_surface: trace
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:1
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 640x480
+qemu: info: Spice: cursor-channel.c:318:cursor_channel_init_client: during_target_migrate: skip init
+qemu: info: Spice: red-worker.c:490:dev_create_primary_surface: trace
+qemu: info: Spice: display-channel.c:173:monitors_config_unref: freeing monitors config
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:1
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 640x480
+qemu: info: Spice: cursor-channel.c:318:cursor_channel_init_client: during_target_migrate: skip init
+qemu: info: GSpice: spice-session.c:1802 no migration in progress
+qemu: info: Spice: red-worker.c:490:dev_create_primary_surface: trace
+qemu: info: Spice: display-channel.c:173:monitors_config_unref: freeing monitors config
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:1
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 720x400
+qemu: info: Spice: cursor-channel.c:318:cursor_channel_init_client: during_target_migrate: skip init
+qemu: info: GSpice: spice-channel.c:141 main-1:0: spice_channel_constructed
+qemu: info: GSpice: spice-session.c:2282 main-1:0: new main channel, switching
+2020-04-19 21:10:40,313 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:133 new channel (#0)
+2020-04-19 21:10:40,313 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:136 new main channel
+2020-04-19 21:10:40,313 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSSession.m:249 Changing main channel from 0x0 to 0x11190eb00
+qemu: info: GSpice: spice-channel.c:2707 main-1:0: Open coroutine starting 0x11190eb00
+qemu: info: GSpice: spice-channel.c:2544 main-1:0: Started background coroutine 0x11190c630
+qemu: info: GSpice: spice-session.c:2234 main-1:0: Using plain text, port 5930
+qemu: info: GSpice: spice-session.c:2165 open host 127.0.0.1:5930
+qemu: info: GSpice: spice-session.c:2087 main-1:0: connecting 0x177706c28...
+qemu: info: GSpice: spice-session.c:2071 main-1:0: connect ready
+qemu: info: GSpice: spice-channel.c:1367 main-1:0: channel type 1 id 0 num common caps 1 num caps 1
+qemu: info: GSpice: spice-channel.c:1391 main-1:0: Peer version: 2:2
+qemu: info: GSpice: spice-channel.c:1947 main-1:0: spice_channel_recv_link_msg: 2 caps
+qemu: info: GSpice: spice-channel.c:1961 main-1:0: got remote common caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0xB
+qemu: info: GSpice: spice-channel.c:1968 main-1:0: got remote channel caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0x9
+qemu: info: GSpice: spice-channel.c:2926 test cap 0 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0xB: yes
+qemu: info: Spice: reds.c:2159:reds_handle_auth_mechanism: Auth method: 1
+qemu: info: GSpice: spice-channel.c:2926 test cap 3 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2000 main-1:0: use mini header: 1
+qemu: info: Spice: reds.c:1789:reds_handle_main_link: trace
+qemu: info: Spice: reds.c:603:reds_disconnect: trace
+qemu: info: Spice: reds.c:1642:reds_info_new_channel: channel 1:0, connected successfully, over Non Secure link
+qemu: info: Spice: red_channel_client_class_init
+2020-04-19 21:10:40,327 MESSAGE (null)-main channel: opened
+qemu: info: GSpice: spice-channel.c:1298 main-1:0: channel up, state 3
+qemu: info: Spice: reds.c:1828:reds_handle_main_link: NEW Client 0x1181a1570 mcc 0x11a7f69e0 connect-id 16807
+qemu: info: GSpice: spice-session.c:2386 set mm time: 28073199
+qemu: info: GSpice: spice-session.c:2389 spice_session_set_mm_time: mm-time-reset, old 28073599, new 28073199
+qemu: info: GSpice: channel-main.c:1693 server name: Arch-Linux
+qemu: info: GSpice: channel-main.c:1704 server uuid: c700a3f8-5e50-4b17-99f0-8ba7c158b82f
+qemu: info: Spice: main:0 (0x1181f00f0): net test: latency 0.829000 ms, bitrate 28444444444 bps (27126.736111 Mbps)
+qemu: info: Spice: red-channel-client.c:792:red_channel_client_start_connectivity_monitoring: trace
+qemu: info: GSpice: spice-channel.c:141 playback-5:0: spice_channel_constructed
+2020-04-19 21:10:40,328 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:133 new channel (#0)
+2020-04-19 21:10:40,328 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:153 new audio channel
+qemu: info: GSpice: spice-channel.c:141 record-6:0: spice_channel_constructed
+2020-04-19 21:10:40,328 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:133 new channel (#0)
+qemu: info: Spice: channel-display-gst.c:718:gstvideo_debug_available_decoders: From   1 video decoder elements,  1 can handle caps   image/jpeg: jpegdec
+qemu: info: Spice: channel-display-gst.c:748:gstvideo_has_codec: From 1 decoders, none can handle 'video/x-vp8'
+qemu: info: GSpice: channel-display.c:894 GStreamer does not support the vp8 codec
+qemu: info: Spice: channel-display-gst.c:748:gstvideo_has_codec: From 1 decoders, none can handle 'video/x-h264'
+qemu: info: GSpice: channel-display.c:894 GStreamer does not support the h264 codec
+qemu: info: Spice: channel-display-gst.c:748:gstvideo_has_codec: From 1 decoders, none can handle 'video/x-vp9'
+qemu: info: GSpice: channel-display.c:894 GStreamer does not support the vp9 codec
+qemu: info: Spice: channel-display-gst.c:748:gstvideo_has_codec: From 1 decoders, none can handle 'video/x-h265'
+2020-04-19 21:10:40,329 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:133 new channel (#0)
+2020-04-19 21:10:40,329 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:145 new display channel (#0)
+2020-04-19 21:10:40,329 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:133 new channel (#0)
+qemu: info: GSpice: channel-display.c:894 GStreamer does not support the h265 codec
+qemu: info: GSpice: spice-channel.c:141 display-2:0: spice_channel_constructed
+2020-04-19 21:10:40,329 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:133 new channel (#0)
+qemu: info: GSpice: spice-channel.c:141 cursor-4:0: spice_channel_constructed
+qemu: info: GSpice: spice-channel.c:141 inputs-3:0: spice_channel_constructed
+qemu: info: GSpice: spice-channel.c:2707 playback-5:0: Open coroutine starting 0x1109da770
+qemu: info: GSpice: spice-channel.c:2544 playback-5:0: Started background coroutine 0x1109d82a0
+qemu: info: GSpice: spice-session.c:2234 playback-5:0: Using plain text, port 5930
+qemu: info: GSpice: spice-channel.c:2707 record-6:0: Open coroutine starting 0x1109ded70
+qemu: info: GSpice: spice-channel.c:2544 record-6:0: Started background coroutine 0x1109dc8a0
+qemu: info: GSpice: spice-session.c:2234 record-6:0: Using plain text, port 5930
+qemu: info: GSpice: spice-channel.c:2707 display-2:0: Open coroutine starting 0x1109e13b0
+qemu: info: GSpice: spice-channel.c:2544 display-2:0: Started background coroutine 0x1109deee0
+qemu: info: GSpice: spice-session.c:2234 display-2:0: Using plain text, port 5930
+qemu: info: GSpice: spice-session.c:2165 open host 127.0.0.1:5930
+qemu: info: GSpice: spice-session.c:2087 playback-5:0: connecting 0x1788aac28...
+qemu: info: GSpice: spice-session.c:2165 open host 127.0.0.1:5930
+qemu: info: GSpice: spice-session.c:2087 record-6:0: connecting 0x1798aac28...
+qemu: info: GSpice: spice-session.c:2165 open host 127.0.0.1:5930
+qemu: info: GSpice: spice-session.c:2087 display-2:0: connecting 0x17a8aac28...
+qemu: info: GSpice: spice-session.c:2071 playback-5:0: connect ready
+qemu: info: GSpice: spice-channel.c:1367 playback-5:0: channel type 5 id 0 num common caps 1 num caps 1
+qemu: info: GSpice: spice-session.c:2071 record-6:0: connect ready
+qemu: info: GSpice: spice-channel.c:1367 record-6:0: channel type 6 id 0 num common caps 1 num caps 1
+qemu: info: GSpice: spice-session.c:2071 display-2:0: connect ready
+qemu: info: GSpice: spice-channel.c:1367 display-2:0: channel type 2 id 0 num common caps 1 num caps 1
+qemu: info: GSpice: spice-channel.c:1391 playback-5:0: Peer version: 2:2
+qemu: info: GSpice: spice-channel.c:1947 playback-5:0: spice_channel_recv_link_msg: 2 caps
+qemu: info: GSpice: spice-channel.c:1961 playback-5:0: got remote common caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0xB
+qemu: info: GSpice: spice-channel.c:1968 playback-5:0: got remote channel caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0xA
+qemu: info: GSpice: spice-channel.c:2926 test cap 0 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 3 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2000 playback-5:0: use mini header: 1
+qemu: info: Spice: reds.c:2159:reds_handle_auth_mechanism: Auth method: 1
+qemu: info: GSpice: spice-channel.c:1391 record-6:0: Peer version: 2:2
+qemu: info: GSpice: spice-channel.c:1947 record-6:0: spice_channel_recv_link_msg: 2 caps
+qemu: info: GSpice: spice-channel.c:1961 record-6:0: got remote common caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0xB
+qemu: info: GSpice: spice-channel.c:1968 record-6:0: got remote channel caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0x6
+qemu: info: GSpice: spice-channel.c:2926 test cap 0 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 3 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2000 record-6:0: use mini header: 1
+qemu: info: Spice: reds.c:1642:reds_info_new_channel: channel 5:0, connected successfully, over Non Secure link
+qemu: info: Spice: sound.c:1085:playback_channel_client_constructed: playback client 0x1109e61a0 using mode raw
+qemu: info: GSpice: spice-channel.c:1298 playback-5:0: channel up, state 3
+qemu: info: GSpice: channel-playback.c:345 playback-5:0: playback_handle_mode: time 28073623 mode 1 data 0x280be0876 size 0
+qemu: info: Spice: reds.c:2159:reds_handle_auth_mechanism: Auth method: 1
+qemu: info: GSpice: spice-channel.c:1391 display-2:0: Peer version: 2:2
+qemu: info: GSpice: spice-channel.c:1947 display-2:0: spice_channel_recv_link_msg: 2 caps
+qemu: info: GSpice: spice-channel.c:1961 display-2:0: got remote common caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0xB
+qemu: info: GSpice: spice-channel.c:1968 display-2:0: got remote channel caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0x1052
+qemu: info: GSpice: spice-channel.c:2926 test cap 0 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 3 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2000 display-2:0: use mini header: 1
+qemu: info: Spice: reds.c:1642:reds_info_new_channel: channel 6:0, connected successfully, over Non Secure link
+qemu: info: GSpice: spice-channel.c:1298 record-6:0: channel up, state 3
+qemu: info: Spice: reds.c:2159:reds_handle_auth_mechanism: Auth method: 1
+qemu: info: Spice: reds.c:1642:reds_info_new_channel: channel 2:0, connected successfully, over Non Secure link
+qemu: info: Spice: red-qxl.c:80:red_qxl_set_display_peer: 
+qemu: info: GSpice: spice-channel.c:1298 display-2:0: channel up, state 3
+qemu: info: GSpice: channel-display.c:1069 display-2:0: spice_display_channel_up: cache_size 83886080, glz_window_size 25161728 (bytes)
+qemu: info: Spice: red-worker.c:719:handle_dev_display_connect: connect new client
+qemu: info: Spice: dcc.c:518:dcc_new: New display (client 0x1181a1570) dcc 0x10ffa88f0 stream 0x2827eab80
+qemu: info: Spice: display-channel.c:2374:display_channel_update_compression: jpeg disabled
+qemu: info: Spice: display-channel.c:2375:display_channel_update_compression: zlib-over-glz disabled
+qemu: info: Spice: image-encoders.c:734:create_glz_dictionary: Lz Window 1 Size=6290432
+qemu: info: Spice: dcc.c:551:display_channel_client_wait_for_init: creating encoder with id == 0
+qemu: info: GSpice: channel-display.c:1899 surface flags: 1
+qemu: info: GSpice: channel-display.c:947 display-2:0: Create primary canvas
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0x1052: yes
+qemu: info: GSpice: channel-display.c:1969 display-2:0: received new monitors config from guest: n: 1/1
+qemu: info: GSpice: channel-display.c:1989 display-2:0: monitor id: 0, surface id: 0, +0+0-720x400
+qemu: info: GSpice: channel-display.c:559 display-2:0: get primary 0x16c7f0000
+2020-04-19 21:10:40,376 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+2020-04-19 21:10:40,376 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:62 0:0 mouse mode 1
+qemu: info: GSpice: channel-display.c:1123 display-2:0: display_handle_mark
+qemu: info: GSpice: spice-channel.c:2707 inputs-3:0: Open coroutine starting 0x1109e5f60
+qemu: info: GSpice: spice-channel.c:2544 inputs-3:0: Started background coroutine 0x1109e3a90
+qemu: info: GSpice: spice-session.c:2234 inputs-3:0: Using plain text, port 5930
+qemu: info: GSpice: spice-channel.c:2707 cursor-4:0: Open coroutine starting 0x1109e3960
+qemu: info: GSpice: spice-channel.c:2544 cursor-4:0: Started background coroutine 0x1109e1490
+qemu: info: GSpice: spice-session.c:2234 cursor-4:0: Using plain text, port 5930
+qemu: info: GSpice: spice-session.c:2165 open host 127.0.0.1:5930
+qemu: info: GSpice: spice-session.c:2087 inputs-3:0: connecting 0x17c0aec28...
+qemu: info: GSpice: spice-session.c:2165 open host 127.0.0.1:5930
+qemu: info: GSpice: spice-session.c:2087 cursor-4:0: connecting 0x17d0aec28...
+qemu: info: GSpice: spice-session.c:2071 inputs-3:0: connect ready
+qemu: info: GSpice: spice-channel.c:1367 inputs-3:0: channel type 3 id 0 num common caps 1 num caps 0
+qemu: info: GSpice: spice-session.c:2071 cursor-4:0: connect ready
+qemu: info: GSpice: spice-channel.c:1367 cursor-4:0: channel type 4 id 0 num common caps 1 num caps 0
+qemu: info: GSpice: spice-channel.c:1391 inputs-3:0: Peer version: 2:2
+qemu: info: GSpice: spice-channel.c:1947 inputs-3:0: spice_channel_recv_link_msg: 2 caps
+qemu: info: GSpice: spice-channel.c:1961 inputs-3:0: got remote common caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0xB
+qemu: info: GSpice: spice-channel.c:1968 inputs-3:0: got remote channel caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0x1
+qemu: info: GSpice: spice-channel.c:2926 test cap 0 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 3 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2000 inputs-3:0: use mini header: 1
+qemu: info: Spice: reds.c:2159:reds_handle_auth_mechanism: Auth method: 1
+qemu: info: GSpice: spice-channel.c:1391 cursor-4:0: Peer version: 2:2
+qemu: info: GSpice: spice-channel.c:1947 cursor-4:0: spice_channel_recv_link_msg: 1 caps
+qemu: info: GSpice: spice-channel.c:1961 cursor-4:0: got remote common caps:
+qemu: info: GSpice: spice-channel.c:1897 	0:0xB
+qemu: info: GSpice: spice-channel.c:1968 cursor-4:0: got remote channel caps:
+qemu: info: GSpice: spice-channel.c:2926 test cap 0 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2926 test cap 3 in 0xB: yes
+qemu: info: GSpice: spice-channel.c:2000 cursor-4:0: use mini header: 1
+qemu: info: Spice: reds.c:1642:reds_info_new_channel: channel 3:0, connected successfully, over Non Secure link
+qemu: info: GSpice: spice-channel.c:1298 inputs-3:0: channel up, state 3
+qemu: info: GSpice: channel-base.c:81 main-1:0: spice_channel_handle_notify -- warn!!! #0: keyboard channel is insecure
+qemu: info: Spice: reds.c:2159:reds_handle_auth_mechanism: Auth method: 1
+qemu: info: Spice: reds.c:1642:reds_info_new_channel: channel 4:0, connected successfully, over Non Secure link
+qemu: info: Spice: red-worker.c:815:handle_dev_cursor_connect: cursor connect
+qemu: info: Spice: cursor-channel.c:349:cursor_channel_connect: add cursor channel client
+qemu: info: GSpice: spice-channel.c:1298 cursor-4:0: channel up, state 3
+qemu: info: GSpice: channel-cursor.c:387 cursor-4:0: set_cursor: flags 1, size 0
+qemu: info: Spice: red-channel-client.c:1394:red_channel_client_handle_pong: update roundtrip 0.79(ms)
+qemu: info: Spice: red-channel-client.c:1394:red_channel_client_handle_pong: update roundtrip 0.26(ms)
+qemu: info: Spice: red-worker.c:490:dev_create_primary_surface: trace
+qemu: info: Spice: display-channel.c:173:monitors_config_unref: freeing monitors config
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:1
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 640x480
+qemu: info: GSpice: channel-cursor.c:542 cursor-4:0: cursor_handle_reset, init_done: 1
+qemu: info: GSpice: channel-display.c:1941 display-2:0: 0: FIXME primary destroy, but is display really disabled?
+2020-04-19 21:10:41,502 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:133 0:0 cs_cursor_reset
+qemu: info: GSpice: channel-display.c:1899 surface flags: 1
+qemu: info: GSpice: channel-display.c:947 display-2:0: Create primary canvas
+qemu: info: GSpice: channel-cursor.c:387 cursor-4:0: set_cursor: flags 1, size 0
+2020-04-19 21:10:41,503 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0x1052: yes
+qemu: info: GSpice: channel-display.c:1969 display-2:0: received new monitors config from guest: n: 1/1
+qemu: info: GSpice: channel-display.c:1989 display-2:0: monitor id: 0, surface id: 0, +0+0-640x480
+2020-04-19 21:10:41,504 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: channel-display.c:1123 display-2:0: display_handle_mark
+2020-04-19 21:10:45,360 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:10:45,464 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+qemu: info: Spice: red-channel-client.c:1394:red_channel_client_handle_pong: update roundtrip 0.40(ms)
+qemu: info: Spice: reds.c:3256:spice_server_add_interface: SPICE_INTERFACE_TABLET
+qemu: info: GSpice: channel-main.c:1634 main-1:0: request mouse mode 2
+qemu: info: Spice: red-worker.c:905:handle_dev_set_mouse_mode: mouse mode 2
+2020-04-19 21:11:00,536 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:62 0:0 mouse mode 2
+qemu: info: Spice: red-channel-client.c:1394:red_channel_client_handle_pong: update roundtrip 0.29(ms)
+qemu: info: Spice: red-worker.c:602:handle_dev_stop: stop
+qemu: info: Spice: display-channel.c:2090:display_channel_destroy_surfaces: trace
+qemu: info: Spice: red-worker.c:490:dev_create_primary_surface: trace
+qemu: info: GSpice: channel-cursor.c:542 cursor-4:0: cursor_handle_reset, init_done: 1
+qemu: info: Spice: display-channel.c:173:monitors_config_unref: freeing monitors config
+2020-04-19 21:11:20,527 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:133 0:0 cs_cursor_reset
+2020-04-19 21:11:20,528 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:133 0:0 cs_cursor_reset
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:1
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 640x480
+qemu: info: GSpice: channel-cursor.c:542 cursor-4:0: cursor_handle_reset, init_done: 0
+qemu: info: GSpice: channel-display.c:1941 display-2:0: 0: FIXME primary destroy, but is display really disabled?
+qemu: info: GSpice: channel-display.c:1899 surface flags: 1
+qemu: info: GSpice: channel-display.c:947 display-2:0: Create primary canvas
+qemu: info: GSpice: channel-cursor.c:387 cursor-4:0: set_cursor: flags 1, size 0
+2020-04-19 21:11:20,528 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0x1052: yes
+qemu: info: GSpice: channel-display.c:1969 display-2:0: received new monitors config from guest: n: 1/1
+qemu: info: GSpice: channel-display.c:1989 display-2:0: monitor id: 0, surface id: 0, +0+0-640x480
+2020-04-19 21:11:20,529 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: channel-display.c:1123 display-2:0: display_handle_mark
+qemu: info: GSpice: channel-playback.c:367 playback-5:0: playback_handle_start: fmt 1 channels 2 freq 48000 time 28113979 mode raw
+qemu: info: GSpice: spice-gstaudio.c:299 audio pipeline: appsrc is-live=1 do-timestamp=0 format=time caps="audio/x-raw,format="S16LE",channels=2,rate=48000,layout=interleaved" name="appsrc" ! queue ! audioconvert ! audioresample ! autoaudiosink name="audiosink"
+qemu: info: GSpice: spice-gstaudio.c:266 got min latency 0:00:00.000000000, max latency 99:99:99.999999999, live 0
+qemu: info: GSpice: channel-playback.c:462 playback-5:0: playback set_delay 0 ms
+qemu: info: GSpice: spice-session.c:2386 set mm time: 28113979
+qemu: info: Spice: reds.c:2588:reds_send_mm_time: trace
+qemu: info: GSpice: spice-session.c:2386 set mm time: 28113686
+qemu: info: GSpice: spice-session.c:2389 spice_session_set_mm_time: mm-time-reset, old 28113979, new 28113686
+qemu: info: GSpice: channel-display.c:1532 display-2:0: display_session_mm_time_reset_cb
+qemu: info: Spice: red-worker.c:490:dev_create_primary_surface: trace
+qemu: info: Spice: display-channel.c:173:monitors_config_unref: freeing monitors config
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:1
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 64x64
+2020-04-19 21:11:20,856 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:133 0:0 cs_cursor_reset
+qemu: info: GSpice: channel-cursor.c:542 cursor-4:0: cursor_handle_reset, init_done: 1
+qemu: info: GSpice: channel-cursor.c:542 cursor-4:0: cursor_handle_reset, init_done: 0
+2020-04-19 21:11:20,856 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:133 0:0 cs_cursor_reset
+qemu: info: GSpice: channel-display.c:1941 display-2:0: 0: FIXME primary destroy, but is display really disabled?
+qemu: info: GSpice: channel-display.c:1899 surface flags: 1
+qemu: info: GSpice: channel-display.c:947 display-2:0: Create primary canvas
+2020-04-19 21:11:20,856 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: channel-cursor.c:387 cursor-4:0: set_cursor: flags 1, size 0
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0x1052: yes
+qemu: info: GSpice: channel-display.c:1969 display-2:0: received new monitors config from guest: n: 1/1
+qemu: info: GSpice: channel-display.c:1989 display-2:0: monitor id: 0, surface id: 0, +0+0-64x64
+2020-04-19 21:11:20,856 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: channel-display.c:1123 display-2:0: display_handle_mark
+qemu: info: Spice: display-channel.c:173:monitors_config_unref: freeing monitors config
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:4
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 1024x768
+qemu: info: GSpice: channel-display.c:1969 display-2:0: received new monitors config from guest: n: 1/4
+qemu: info: GSpice: channel-display.c:1989 display-2:0: monitor id: 0, surface id: 0, +0+0-1024x768
+2020-04-19 21:11:20,941 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: channel-cursor.c:542 cursor-4:0: cursor_handle_reset, init_done: 1
+qemu: info: GSpice: channel-display.c:1941 display-2:0: 0: FIXME primary destroy, but is display really disabled?
+2020-04-19 21:11:20,994 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:133 0:0 cs_cursor_reset
+qemu: info: GSpice: channel-cursor.c:542 cursor-4:0: cursor_handle_reset, init_done: 0
+2020-04-19 21:11:20,994 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:133 0:0 cs_cursor_reset
+qemu: info: Spice: red-worker.c:490:dev_create_primary_surface: trace
+qemu: info: Spice: display-channel.c:173:monitors_config_unref: freeing monitors config
+qemu: info: Spice: display-channel.c:181:monitors_config_debug: monitors config count:1 max:4
+qemu: info: Spice: display-channel.c:185:monitors_config_debug: +0+0 1024x768
+qemu: info: GSpice: channel-display.c:1899 surface flags: 1
+qemu: info: GSpice: channel-display.c:947 display-2:0: Create primary canvas
+2020-04-19 21:11:20,996 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:116 0:0 update monitor area
+qemu: info: GSpice: spice-channel.c:2926 test cap 1 in 0x1052: yes
+qemu: info: GSpice: channel-cursor.c:387 cursor-4:0: set_cursor: flags 1, size 0
+qemu: info: GSpice: channel-display.c:1123 display-2:0: display_handle_mark
+qemu: info: GSpice: channel-playback.c:367 playback-5:0: playback_handle_start: fmt 1 channels 2 freq 48000 time 28114343 mode raw
+qemu: info: GSpice: spice-gstaudio.c:266 got min latency 0:00:00.000000000, max latency 99:99:99.999999999, live 0
+qemu: info: GSpice: channel-playback.c:462 playback-5:0: playback set_delay 0 ms
+qemu: info: GSpice: spice-session.c:2386 set mm time: 28114343
+qemu: info: Spice: reds.c:2588:reds_send_mm_time: trace
+qemu: info: GSpice: spice-session.c:2386 set mm time: 28114052
+qemu: info: GSpice: spice-session.c:2389 spice_session_set_mm_time: mm-time-reset, old 28114451, new 28114052
+qemu: info: GSpice: channel-display.c:1532 display-2:0: display_session_mm_time_reset_cb
+qemu: info: GSpice: channel-playback.c:367 playback-5:0: playback_handle_start: fmt 1 channels 2 freq 48000 time 28114724 mode raw
+qemu: info: GSpice: spice-gstaudio.c:266 got min latency 0:00:00.000000000, max latency 99:99:99.999999999, live 0
+qemu: info: GSpice: channel-playback.c:462 playback-5:0: playback set_delay 0 ms
+qemu: info: GSpice: spice-session.c:2386 set mm time: 28114724
+qemu: info: Spice: reds.c:2588:reds_send_mm_time: trace
+qemu: info: GSpice: spice-session.c:2386 set mm time: 28114433
+qemu: info: GSpice: spice-session.c:2389 spice_session_set_mm_time: mm-time-reset, old 28114833, new 28114433
+qemu: info: GSpice: channel-display.c:1532 display-2:0: display_session_mm_time_reset_cb
+2020-04-19 21:11:33,518 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 0
+qemu: info: Spice: red-worker.c:905:handle_dev_set_mouse_mode: mouse mode 1
+qemu: info: GSpice: channel-main.c:1634 main-1:0: request mouse mode 1
+2020-04-19 21:11:33,526 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:62 0:0 mouse mode 1
+2020-04-19 21:11:33,605 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:11:33,708 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+2020-04-19 21:11:35,914 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:11:36,018 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+2020-04-19 21:12:07,428 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:12:07,536 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+qemu: info: Spice: red-worker.c:602:handle_dev_stop: stop
+qemu: info: Spice: red-worker.c:602:handle_dev_stop: stop
+2020-04-19 21:12:22,319 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:12:22,431 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+2020-04-19 21:12:23,433 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:12:23,540 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+2020-04-19 21:12:28,418 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:12:28,526 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+2020-04-19 21:12:29,294 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:12:29,404 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+2020-04-19 21:12:30,052 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] press: button 1
+2020-04-19 21:12:30,160 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:373 0:0 -[CSInput sendMouseButton:pressed:point:] release: button 1
+qemu: info: Spice: red-worker.c:602:handle_dev_stop: stop
+qemu: info: Spice: reds.c:3331:spice_server_remove_interface: remove SPICE_INTERFACE_PLAYBACK
+qemu: info: Spice: reds.c:3334:spice_server_remove_interface: remove SPICE_INTERFACE_RECORD
+qemu: info: GSpice: spice-channel.c:1066 playback-5:0: Closing the connection: spice_channel_read() - ret=0
+qemu: info: GSpice: spice-channel.c:2680 playback-5:0: Coroutine exit playback-5:0
+qemu: info: GSpice: spice-channel.c:2871 playback-5:0: reset 
+qemu: info: GSpice: spice-channel.c:1066 record-6:0: Closing the connection: spice_channel_read() - ret=0
+qemu: info: GSpice: spice-channel.c:2680 record-6:0: Coroutine exit record-6:0
+qemu: info: GSpice: spice-channel.c:2871 record-6:0: reset 
+qemu: info: GSpice: spice-channel.c:2819 playback-5:0: channel reset
+qemu: info: GSpice: spice-gstaudio.c:132 record_stop
+qemu: info: GSpice: spice-channel.c:2819 record-6:0: channel reset
+qemu: info: GSpice: spice-channel.c:2425 playback-5:0: Delayed unref channel 0x1109da770
+qemu: info: GSpice: spice-channel.c:2425 record-6:0: Delayed unref channel 0x1109ded70
+qemu: info: GSpice: spice-session.c:1994 session: disconnecting 0
+2020-04-19 21:12:35,704 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:211 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2888 inputs-3:0: channel disconnect 0
+qemu: info: GSpice: spice-channel.c:2680 inputs-3:0: Coroutine exit inputs-3:0
+2020-04-19 21:12:35,704 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:188 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2871 inputs-3:0: reset 
+qemu: info: GSpice: spice-channel.c:2819 inputs-3:0: channel reset
+qemu: info: GSpice: spice-channel.c:2888 cursor-4:0: channel disconnect 0
+2020-04-19 21:12:35,705 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:211 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2680 cursor-4:0: Coroutine exit cursor-4:0
+qemu: info: GSpice: spice-channel.c:2871 cursor-4:0: reset 
+2020-04-19 21:12:35,705 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:188 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2819 cursor-4:0: channel reset
+2020-04-19 21:12:35,706 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:183 zap display channel (#0)
+qemu: info: GSpice: spice-channel.c:2888 display-2:0: channel disconnect 0
+2020-04-19 21:12:35,706 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:211 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2680 display-2:0: Coroutine exit display-2:0
+2020-04-19 21:12:35,706 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:188 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2871 display-2:0: reset 
+2020-04-19 21:12:35,706 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:211 0:0 channel_destroy 0
+qemu: info: GSpice: channel-display.c:1034 display-2:0: keeping existing primary surface, migration or reset
+qemu: info: GSpice: spice-channel.c:2819 display-2:0: channel reset
+2020-04-19 21:12:35,706 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:188 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2888 record-6:0: channel disconnect 0
+qemu: info: GSpice: spice-channel.c:159 record-6:0: spice_channel_dispose 0x1109ded70
+qemu: info: GSpice: spice-channel.c:2888 record-6:0: channel disconnect 12
+qemu: info: Spice: dcc.c:1433:dcc_on_disconnect: trace
+qemu: info: GSpice: spice-gstaudio.c:476 record closed
+qemu: info: GSpice: spice-gstaudio.c:132 record_stop
+qemu: info: GSpice: spice-channel.c:177 record-6:0: spice_channel_finalize 0x1109ded70
+2020-04-19 21:12:35,707 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:190 zap audio channel
+qemu: info: GSpice: spice-channel.c:2888 playback-5:0: channel disconnect 0
+2020-04-19 21:12:35,707 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:211 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:159 playback-5:0: spice_channel_dispose 0x1109da770
+qemu: info: GSpice: spice-channel.c:2888 playback-5:0: channel disconnect 12
+qemu: info: GSpice: spice-gstaudio.c:472 playback closed
+2020-04-19 21:12:35,707 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:188 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:177 playback-5:0: spice_channel_finalize 0x1109da770
+2020-04-19 21:12:35,707 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSConnection.m:176 zap main channel
+qemu: info: GSpice: spice-session.c:2322 main-1:0: the session lost the main channel
+qemu: info: GSpice: spice-channel.c:2888 main-1:0: channel disconnect 0
+2020-04-19 21:12:35,707 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSDisplayMetal.m:211 0:0 channel_destroy 0
+qemu: info: GSpice: spice-channel.c:2680 main-1:0: Coroutine exit main-1:0
+qemu: info: GSpice: spice-channel.c:2871 main-1:0: reset 
+2020-04-19 21:12:35,707 DEBUG (null)-/Users/runner/runners/2.169.0/work/UTM/UTM/CocoaSpice/CSInput.m:188 0:0 channel_destroy 0
+qemu: info: GSpice: channel-main.c:1551 agent connected: no
+qemu: info: GSpice: spice-session.c:1802 no migration in progress
