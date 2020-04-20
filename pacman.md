@@ -1,5 +1,16 @@
 # pacman
 
+## 备份和还原
+
+```shell
+# 备份
+pacman -Qqen > packages-repository.txt
+pacman -Qqem > packages-AUR.txt
+# 还原
+pacman --needed -S - < packages-repository.txt 
+cat packages-AUR.txt | xargs yaourt -S --needed --noconfirm
+```
+
 ## 安装 Git
 
 ```shell
