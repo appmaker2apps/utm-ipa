@@ -8,6 +8,8 @@ pacman -S git
 
 ## 安装 Tmux
 
+https://wiki.archlinux.org/index.php/Tmux_(简体中文)
+
 ```shell
 pacman -S tmux
 # tmux: invalid LC_ALL,LC_CTYPE, or LANG …… 问题解决
